@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style4.css">
+  <title>Invoice app</title>
+</head>
+<body>
+  
+<nav class="nav">
+
+    <div class="logo-container">
+      <img src="logo.svg" alt="logo" class="logo">
+      <section class="first-portion"></section>
+    </div>
+
+    <div class="theme-profile-container">
+
+      <span  >
+        <img src="icon-moon.svg" alt="icon-moon" class="theme-changer">
+      </span>
+      
+      <span class="profile-container">
+        <img src="image-avatar.jpg" alt="image-avatar" class="avatar">
+      </span>
+    </div>
+
+</nav>
+
+<div class="invoice-display-container" id="invoice-display-container">
+  <section class="invoice-manager-heading">
+  
+    <span>
+      <h1 class="invoice-manager-main-heading">Invoices</h1>
+      <p class="invoice-length-message"><span class="mobile-none">There are </span><span id="invoice-total-displayer">0</span><span class="mobile-none"> total</span> invoices</p>
+    </span>
+  
+    <div class="filter-create-btn-container">
+  
+      <span class="filter-container drop-down-btn">
+        <p>Filter <span class="mobile-none">by status</span> <img src="icon-arrow-down.svg" alt="icon-down" class="icon-drop-down"></p>
+        <!-- Filter Dropdown -->
+        <div class="filter-drop-down">
+          <label for="draft"><input type="checkbox" value="draft" id="draft" class="checker"><span class="tick-box"></span>Drafts</label>
+          <label for="pending"><input type="checkbox" value="pending" id="pending" class="checker"><span class="tick-box"></span>pending</label>
+          <label for="paid"><input type="checkbox" value="paid" id="paid" class="checker"><span class="tick-box"></span> Paid</label>
+        </div>
+      </span>
+  
+      <span>
+        <button type="button" id="invoice-creator" class="invoice-creator">
+          <span class="create-logo-container">
+            <img src="icon-plus.svg" alt="icon-plus">
+          </span>
+          <span>New <span class="mobile-none">Invoice</span></span>
+        </button>
+      </span>
+  
+    </div>
+  
+  </section>
+
+<!-- invoice container to display created invoie  -->
+  <div class="invoice-container" id="invoice-container">
+      <section class="empty-invoice-illustration">
+      
+        <div class="illustration-image-container">
+          <img src="illustration-empty.svg" alt="">
+        </div>
+        <div>
+          <h1>There is nothing here</h1>
+          <p>Create an invoice by clicking the <br> New Invoice button and get started</p>
+        </div>
+      
+      </section>
+
+  </div>
+
+</div>
+
+<section class="info-getters-container-wrapper">
+  <div class="info-getters-container" id="info-getters-container">
+    
+    <form action="get">
+      <h1 class="details-header">New Invoice</h1>
+
+      <h4>Bill From</h4>
+
+      <label for="sender-street-address">
+        Street Address
+        <input type="text" id="sender-street-address" class="info-getters">
+        <small class="alert-message"></small>
+      </label>
+  
+      <section class="address-section">
+
+        <label for="sender-city">
+          City
+          <input type="text" id="sender-city" class="info-getters">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+        <label for="sender-post-code">
+          Post Code
+          <input type="text" id="sender-post-code" class="info-getters">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+        <label for="sender-country">
+          Country
+          <input type="text" id="sender-country" class="info-getters">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+      </section>
+  
+      <h4>Bill To</h4>
+      <label for="client-name">
+        Client's Name
+        <input type="text" id="client-name" class="info-getters">
+        <small class="alert-message"></small>
+      </label>
+  
+      <label for="client-email">
+        Client's Email
+        <input type="email" name="" id="client-email" class="info-getters">
+        <small class="alert-message"></small>
+      </label>
+  
+      <label for="client-street-address">
+        Street address
+        <input type="text" id="client-street-address" class="info-getters">
+        <small class="alert-message"></small>
+      </label>
+  
+      <section class="address-section">
+
+        <label for="client-city">
+          City
+          <input type="text" id="client-city" class="info-getters">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+        <label for="client-post-code">
+          Post Code
+          <input type="text" id="client-post-code" class="info-getters">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+  
+        <label for="client-country">
+          Country
+          <input type="text" id="client-country" class="info-getters">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+      </section>
+  
+      <section class="invoice-duration-section">
+
+        <label class="created-at-container">
+          Invoice Date
+          <div class="created-at-getter-container">
+            <input type="text" value="" placeholder="21 Aug 2021" id="created-at-getter" class="info-getters" readonly>
+            <small class="alert-message other-alert"></small>
+            <img src="icon-calendar.svg" alt="icon-calendar" class="calendar-icon">
+          </div>
+          <div class="calendar-container">
+            <section class="calendar-navigator-container">
+              <button type="button" class="navigation-btn"><img src="icon-arrow-left.svg" alt="icon-left"
+                  id="previous-btn"></button>
+              <h4 class="date-month-displayer"></h4>
+              <button type="button" class="navigation-btn"><img src="icon-arrow-right.svg" alt="icon-arrow-right"
+                  id="next-btn"></button>
+            </section>
+            <section class="calendar">
+  
+            </section>
+          </div>
+        </label>
+  
+        <label class="payment-terms-container">
+          Payment Terms
+          <div class="term-selecter-displayer-container">
+            <input type="text" value="" placeholder="select-payment-terms" id="payment-terms-getter" class="info-getters"
+              readonly>
+            <small class="alert-message"></small>
+            <img src="icon-arrow-down.svg" alt="icon-down" class="icon-drop-down" id="payment-terms-icon">
+          </div>
+          <div class="options-container">
+            <option class="payment-options"  value="1">Net 1 day</option>
+            <option class="payment-options" value="7">Net 7 days</option>
+            <option class="payment-options" value="14">Net 14 days</option>
+            <option class="payment-options" value="30">Net 30 days</option>
+          </div>
+        </label>
+  
+      </section>
+  
+      <label for="project-description">
+        Project Description
+        <input type="text" id="project-description" placeholder=" e.g. Graphic Design Service" class="info-getters">
+        <small class="alert-message"></small>
+      </label>
+  
+      <h4>Item List</h4>
+      <section class="item-list-section">
+  
+        <section class="list-heading list">
+          <p class="name">Item Name</p>
+          <p class="quantity">Qty.</p>
+          <p class=" price">Price</p>
+          <p class="total">Total</p>
+        </section>
+  
+      </section>
+  
+      <div class="item-appender" id="item-appender"></div>
+  
+      <button type="button" class="add-item-btn" id="add-item-btn"><img src="icon-plus.svg" alt="icon-plus">Add New
+        Item</button>
+  
+      <section class="form-item-alert-box">
+        <h6 class="alert-message form-alert"></h6>
+        <h6 class="alert-message item-alert"></h6>
+      </section>
+  
+      <div class="button-container">
+  
+        <section>
+          <button type="button" class="discard-btn" id="discard-btn">Discard</button>
+        </section>
+  
+        <section class="draft-save-btn-container">
+          <button type="button" class="save-draft-btn" id="save-draft-btn" data-info="draft">Save as Draft</button>
+          <button type="button" class="save-send-btn" id="save-send-btn" data-info="save">Save & Send</button>
+        </section>
+  
+      </div>
+    </form>
+  </div>
+</section>
+
+<div class="path-name-getter"></div>
+
+
+<script src="file.js"></script>
+</body>
+</html>

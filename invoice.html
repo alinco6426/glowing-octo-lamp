@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style4.css">
+  <title>Invoice app</title>
+</head>
+<body>
+
+<nav class="nav">
+
+  <div class="logo-container">
+    <img src="logo.svg" alt="logo" class="logo">
+    <section class="first-portion"></section>
+  </div>
+
+  <div class="theme-profile-container">
+
+    <span>
+      <img src="icon-moon.svg" alt="icon-moon" class="theme-changer">
+    </span>
+
+    <span class="profile-container">
+      <img src="image-avatar.jpg" alt="image-avatar" class="avatar">
+    </span>
+  </div>
+
+</nav>
+  
+<div class="go-back-btn-container">
+  <button class="go-back-btn" type="button"><img src="icon-arrow-left.svg" alt="icon-back"> Go Back</button>
+</div> 
+
+<div class="invoice-info-displayer-container" id="invoice-info-displayer-container"></div>
+
+
+<section class="info-getters-container-wrapper edit-invoice-info-container">
+  <div class="info-getters-container ">
+  
+
+    <form action="get">
+      <h1 class="details-header id-displayer"></h1>
+
+      <h4>Bill From</h4>
+
+      <label for="sender-street-address">
+        Street Address
+        <input type="text" class="info-getters sender-street-address-editer">
+        <small class="alert-message"></small>
+      </label>
+  
+      <section class="address-section">
+        <label for="sender-city">
+          City
+          <input type="text" class="info-getters sender-city-editer">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+        <label for="sender-post-code">
+          Post Code
+          <input type="text" class="info-getters sender-post-code-editer">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+        <label for="sender-country">
+          Country
+          <input type="text" class="info-getters sender-country-editer">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+      </section>
+  
+      <h4>Bill To</h4>
+      <label for="client-name">
+        Client's Name
+        <input type="text" class="info-getters client-name-editer">
+        <small class="alert-message"></small>
+      </label>
+  
+      <label for="client-email">
+        Client's Email
+        <input type="email" class="info-getters client-email-editer">
+        <small class="alert-message"></small>
+      </label>
+  
+      <label for="client-street-address">
+        Street address
+        <input type="text" class="info-getters client-street-address-editer">
+        <small class="alert-message"></small>
+      </label>
+  
+      <section class="address-section">
+        <label for="client-city">
+          City
+          <input type="text" class="info-getters client-city-editer">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+        <label for="client-post-code">
+          Post Code
+          <input type="text" class="info-getters client-post-code-editer">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+  
+        <label for="client-country">
+          Country
+          <input type="text" class="info-getters client-country-editer">
+          <small class="alert-message other-alert"></small>
+        </label>
+  
+      </section>
+  
+      <section class="invoice-duration-section">
+        <label class="created-at-container">
+          Invoice Date
+          <div class="created-at-getter-container">
+            <input type="text" value="" placeholder="21 Aug 2021" class="info-getters created-at-editor" readonly>
+            <small class="alert-message other-alert"></small>
+            <img src="icon-calendar.svg" alt="icon-calendar" class="calendar-icon">
+          </div>
+        </label>
+  
+        <label class="payment-terms-container">
+          Payment Terms
+          <div class="term-selecter-displayer-container">
+            <input type="text" value="" placeholder="select-payment-terms" class="info-getters payment-terms-editor"
+              readonly>
+            <small class="alert-message"></small>
+            <img src="icon-arrow-down.svg" alt="icon-down" class="icon-drop-down" id="payment-terms-icon">
+          </div>
+          <div class="options-container">
+            <option value="1">Net 1 day</option>
+            <option value="7">Net 7 days</option>
+            <option value="14">Net 14 days</option>
+            <option value="30">Net 30 days</option>
+          </div>
+        </label>
+  
+  
+      </section>
+  
+      <label for="project-description">
+        Project Description
+        <input type="text" class="info-getters  project-description-editor">
+        <small class="alert-message"></small>
+      </label>
+  
+      <h4>Item List</h4>
+      <section class="item-list-section">
+  
+        <section class="list-heading list">
+          <p class="name">Item Name</p>
+          <p class="quantity">Qty.</p>
+          <p class=" price">Price</p>
+          <p class="total">Total</p>
+        </section>
+  
+      </section>
+  
+      <div class="item-appender item-editor-appender"></div>
+  
+      <button type="button" class="add-item-btn  add-item-editor-btn"><img src="icon-plus.svg" alt="icon-plus">Add New Item</button>
+
+      <section class="form-item-alert-box">
+        <h6 class="alert-message form-alert"></h6>
+        <h6 class="alert-message item-alert"></h6>
+      </section>
+
+      <div class="button-container">
+        <section class="draft-save-btn-container edit-btn-">
+          <button type="button" class=" discard-btn edit-cancel-btn">Cancel</button>
+          <button type="button" class="save-send-btn save-edited-invoice">Save Changes</button>
+        </section>
+  
+      </div>
+    </form>
+  </div>
+</section>
+
+<div class="path-name-getter"></div>
+
+<script src="file.js"></script>
+</body>
+
+</html>

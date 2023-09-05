@@ -1,0 +1,445 @@
+[
+  {
+    "id": "RT3080",
+    "createdAt": "2021-08-18",
+    "paymentDue": "2021-08-19",
+    "description": "Re-branding",
+    "paymentTerms": 1,
+    "clientName": "Jensen Huang",
+    "clientEmail": "jensenh@mail.com",
+    "status": "paid",
+    "senderAddress": {
+      "street": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "clientAddress": {
+      "street": "106 Kendell Street",
+      "city": "Sharrington",
+      "postCode": "NR24 5WQ",
+      "country": "United Kingdom"
+    },
+    "items": [
+      {
+        "name": "Brand Guidelines",
+        "quantity": 1,
+        "price": 1800.90,
+        "total": 1800.90
+      }
+    ],
+    "total": 1800.90
+  },
+  {
+    "id": "XM9141",
+    "createdAt": "2021-08-21",
+    "paymentDue": "2021-09-20",
+    "description": "Graphic Design",
+    "paymentTerms": 30,
+    "clientName": "Alex Grim",
+    "clientEmail": "alexgrim@mail.com",
+    "status": "pending",
+    "senderAddress": {
+      "street": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "clientAddress": {
+      "street": "84 Church Way",
+      "city": "Bradford",
+      "postCode": "BD1 9PB",
+      "country": "United Kingdom"
+    },
+    "items": [
+      {
+        "name": "Banner Design",
+        "quantity": 1,
+        "price": 156.00,
+        "total": 156.00
+      },
+      {
+        "name": "Email Design",
+        "quantity": 2,
+        "price": 200.00,
+        "total": 400.00
+      }
+    ],
+    "total": 556.00
+  },
+  {
+    "id": "RG0314",
+    "createdAt": "2021-09-24",
+    "paymentDue": "2021-10-01",
+    "description": "Website Redesign",
+    "paymentTerms": 7,
+    "clientName": "John Morrison",
+    "clientEmail": "jm@myco.com",
+    "status": "paid",
+    "senderAddress": {
+      "street": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "clientAddress": {
+      "street": "79 Dover Road",
+      "city": "Westhall",
+      "postCode": "IP19 3PF",
+      "country": "United Kingdom"
+    },
+    "items": [
+      {
+        "name": "Website Redesign",
+        "quantity": 1,
+        "price": 14002.33,
+        "total": 14002.33
+      }
+    ],
+    "total": 14002.33
+  },
+  {
+    "id": "RT2080",
+    "createdAt": "2021-10-11",
+    "paymentDue": "2021-10-12",
+    "description": "Logo Concept",
+    "paymentTerms": 1,
+    "clientName": "Alysa Werner",
+    "clientEmail": "alysa@email.co.uk",
+    "status": "pending",
+    "senderAddress": {
+      "street": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "clientAddress": {
+      "street": "63 Warwick Road",
+      "city": "Carlisle",
+      "postCode": "CA20 2TG",
+      "country": "United Kingdom"
+    },
+    "items": [
+      {
+        "name": "Logo Sketches",
+        "quantity": 1,
+        "price": 102.04,
+        "total": 102.04
+      }
+    ],
+    "total": 102.04
+  },
+  {
+    "id": "AA1449",
+    "createdAt": "2021-10-7",
+    "paymentDue": "2021-10-14",
+    "description": "Re-branding",
+    "paymentTerms": 7,
+    "clientName": "Mellisa Clarke",
+    "clientEmail": "mellisa.clarke@example.com",
+    "status": "pending",
+    "senderAddress": {
+      "street": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "clientAddress": {
+      "street": "46 Abbey Row",
+      "city": "Cambridge",
+      "postCode": "CB5 6EG",
+      "country": "United Kingdom"
+    },
+    "items": [
+      {
+        "name": "New Logo",
+        "quantity": 1,
+        "price": 1532.33,
+        "total": 1532.33
+      },
+      {
+        "name": "Brand Guidelines",
+        "quantity": 1,
+        "price": 2500.00,
+        "total": 2500.00
+      }
+    ],
+    "total": 4032.33
+  },
+  {
+    "id": "TY9141",
+    "createdAt": "2021-10-01",
+    "paymentDue": "2021-10-31",
+    "description": "Landing Page Design",
+    "paymentTerms": 30,
+    "clientName": "Thomas Wayne",
+    "clientEmail": "thomas@dc.com",
+    "status": "pending",
+    "senderAddress": {
+      "street": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "clientAddress": {
+      "street": "3964  Queens Lane",
+      "city": "Gotham",
+      "postCode": "60457",
+      "country": "United States of America"
+    },
+    "items": [
+      {
+        "name": "Web Design",
+        "quantity": 1,
+        "price": 6155.91,
+        "total": 6155.91
+      }
+    ],
+    "total": 6155.91
+  },
+  {
+    "id": "FV2353",
+    "createdAt": "2021-11-05",
+    "paymentDue": "2021-11-12",
+    "description": "Logo Re-design",
+    "paymentTerms": 7,
+    "clientName": "Anita Wainwright",
+    "clientEmail": "",
+    "status": "draft",
+    "senderAddress": {
+      "street": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "clientAddress": {
+      "street": "",
+      "city": "",
+      "postCode": "",
+      "country": ""
+    },
+    "items": [
+      {
+        "name": "Logo Re-design",
+        "quantity": 1,
+        "price": 3102.04,
+        "total": 3102.04
+      }
+    ],
+    "total": 3102.04
+  }
+]
+
+
+@media screen and (max-width: 800px) {
+body{
+   padding-left: 0;
+   padding: 0;
+   display: block;
+   place-items: normal;
+   margin: 0;
+  }
+  /* beggining of styling for nav section (mobile)  */
+
+.nav{
+   background-color: var(--color-one);
+   position: absolute;
+   top: 0;
+   left: auto;
+   bottom: auto;
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   border-radius: 0 ;
+   z-index: 20;
+  }
+
+.logo-container{
+   height: auto;
+   width: 80px;
+  }
+.logo-container .logo{
+   top: 30px;
+  }
+.theme-profile-container{
+   width: 30%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+  }
+.theme-profile-container span {
+   height: 100%;
+   width: 50%;
+  }
+.theme-changer{
+   cursor: pointer;
+  }
+.profile-container{
+   border-left: 1.5px solid var(--color-ten);
+   border-top: none;
+   border-radius: 0;
+  }
+  /* end of styling for nav section for mobile  */
+  /* beginning of styling for invoice header section and container to append all invoice to be created  (mobile)  */
+
+.invoice-display-container {
+   display: block;
+   width: 100%;
+   padding: 20px;
+   margin: 0;
+   margin-top: 100px;
+  }
+
+.invoice-manager-heading {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+  }
+
+.filter-create-btn-container {
+   display: flex;
+   width: 50%;
+   justify-content: space-between;
+  }
+.invoice-creator {
+   padding: 15px;
+   width: 150px;
+  }
+
+.invoice-container {
+   margin-top: 50px;
+   width: 100%;
+  }
+  /* end of styling for invoice header section and container to append all invoice to be created  (mobile)  */
+  /* beginning of styling for invoice info getting section to get information to create an invoice  (mobile)  */
+.info-getters-container-wrapper {
+   width: 100%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+  }
+
+.info-getters-container {
+   padding: 20px;
+   width: 90%;
+   position: absolute;
+   left: auto;
+   top: 0;
+  }
+
+form {
+   padding-top: 70px;
+  }
+
+form h4 {
+   font-size: 16px;
+  }
+
+form label {
+   font-size: 16px;
+   position: relative;
+   margin-top: 20px;
+  }
+
+input.dark {
+   background-color: var(--color-eight);
+   color: var(--color-five);
+   border: var(--color-eight) 1.3px solid;
+   border-radius: 1px;
+  }
+
+.alert-message {
+   left: 85%;
+  }
+
+.other-alert {
+   left: 55%;
+  }
+.options-container option {
+   padding: 20px;
+  }
+.invoice-head-container{
+   padding: 5px;
+  }
+.invoice-head-container .invoice-heading-table {
+   width: 60%;
+   text-align: left;
+   margin: 0;
+   padding: 0;
+  }
+.heading-invoice-id {
+   font-size: 16px;
+  }
+.invoice-head-container .invoice-heading-section {
+   width: 40%;
+   padding: 10px 0;
+   margin-left: 10px;
+  }
+.invoice-heading-section p{
+   font-size: 16px;
+  }
+  /* end of styling for invoice basic info(mobile)  */
+  /* beginning of styling for invoice core  info that will be display in another page (mobile)  */
+
+
+.invoice-info-displayer-container {
+   width: 100%;
+   padding: 20px;
+   position: relative;
+   height: auto;
+  }
+.go-back-btn-container {
+   width: 100%;
+   margin-top: 100px;
+  }
+.go-back-btn img {
+   margin-right: 20px;
+  }
+
+.status-indicator {
+
+   width: 120px;
+   justify-content: center;
+  }
+
+.status-indicator: :before {
+   top: 35%;
+  }
+
+.status-indicator-pending: :before {
+   left: 8%;
+  }
+
+.status-indicator-paid: :before {
+   left: 18%;
+  }
+
+.status-indicator-draft: :before {
+   left: 16%;
+  }
+
+.infos-container {
+   width: 100%;
+   padding: 30px;
+  }
+h2.dark {
+   color: var(--color-five);
+  }
+.info-title {
+   margin: 20px 0;
+  }
+.quantity-prefix {
+   display: none;
+  }
+  /* end of styling for invoice core  info that will be display in another page (mobile)  */
+  /* beginning of styling for modal box to be sure user wants to delete an invoice (mobile)  */
+
+.modal {
+   padding: 20px;
+  }
+.edit-btn-wrapper {
+   transform: translate(80%);
+  }
+  /* end of styling for modal box to be sure user wants to delete an invoice (mobile)  */
+}
